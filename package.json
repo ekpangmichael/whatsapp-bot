@@ -10,21 +10,17 @@
   "author": "Ekpang Michael",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.3",
-    "twilio": "^4.6.0",
-    "request": "^2.88.0",
     "cors": "2.8.5",
-    "dotenv": "8.0.0"
+    "dotenv": "8.0.0",
+    "express": "^4.16.3",
+    "googleapis": "^42.0.0",
+    "twilio": "^4.6.0"
   },
   "devDependencies": {
     "@babel/cli": "7.5.5",
     "@babel/core": "7.5.5",
     "@babel/node": "^7.5.5",
-    "@babel/plugin-proposal-object-rest-spread": "7.5.5",
-    "@babel/polyfill": "7.2.5",
-    "@babel/register": "7.5.5",
-    "babel-eslint": "10.0.2",
-    "babel-preset-env": "1.7.0"
+    "@babel/preset-env": "^7.5.5"
   },
   "engines": {
     "node": "8.x"
